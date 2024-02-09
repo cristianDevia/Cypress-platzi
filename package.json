@@ -1,0 +1,21 @@
+{
+  "name": "cypress_ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "cypress open",
+    "test:headless": "cypress run --browser chrome"
+  },
+  "keywords": [
+    "cypress",
+    "testing",
+    "javascript",
+    "qa"
+  ],
+  "author": "Cristian",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.3"
+  }
+}
